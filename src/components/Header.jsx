@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/logo-1-02.png';
 
 const Header = () => {
     let navDiolog = document.getElementById("navDiolog");
@@ -15,7 +16,7 @@ const Header = () => {
             <header className="sticky top-0 z-50">
                 <nav className="p-3 flex justify-between bg-white items-center sticky top-0 shadow-lg z-50">
                     <Link to="" id="brand" className="flex items-center gap-2">
-                        <img src="/logo-1-02.png" className="h-10 w-auto" alt="logo" />
+                        <img src={Logo} className="h-10 w-auto" alt="logo" />
                     </Link>
                     <div id="navbar" className="gap-6 hidden lg:flex">
                         <Link className="hover:text-[#3955E5] font-poppins font-medium" to="/">Home</Link>

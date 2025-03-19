@@ -1,8 +1,10 @@
+import heroVideo from "../assets/home.mp4";
+
 const Hero = () => {
     return (
         <>
             <section id="home">
-            <video src="/public/home.mp4" autoPlay loop muted className="absolute inset-0 w-full h-full object-cover object-center z-[-1]"></video>
+            <video src={heroVideo} autoPlay loop muted className="absolute inset-0 w-full h-full object-cover object-center z-[-1]"></video>
             <div className="absolute inset-0 bg-linear-to-b from-transparent to-black opacity-80"></div>
             <div className="max-w-6xl mx-auto flex flex-col items-center justify-center h-screen">
                 <h1 className="text-4xl md:text-6xl font-bold text-center text-white z-30">Find Your Dream Home</h1>

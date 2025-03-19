@@ -6,7 +6,6 @@ import ContactUs from "./pages/ContactUs";
 const App = () => {
   return (
     <>
-
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/PropertyListing" element={<PropertyListing />}></Route>
